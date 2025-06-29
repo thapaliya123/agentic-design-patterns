@@ -1,0 +1,3 @@
+
+class ReflectionPattern:
+    pass
