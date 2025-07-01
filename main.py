@@ -1,6 +1,9 @@
-def main():
-    print("Hello from agentic-design-patterns!")
+from src.reflection_pattern import ReflectionPattern
+
+def invoke_reflection_pattern():
+    reflection_pattern = ReflectionPattern()
+    reflection_pattern()
 
 
 if __name__ == "__main__":
-    main()
+    invoke_reflection_pattern()
