@@ -1,7 +1,7 @@
 from src.reflection_pattern import ReflectionPattern
 
 def invoke_reflection_pattern():
-    reflection_pattern = ReflectionPattern()
+    reflection_pattern = ReflectionPattern("./src/prompts/prompt_template.toml")
     reflection_pattern()
 
 
