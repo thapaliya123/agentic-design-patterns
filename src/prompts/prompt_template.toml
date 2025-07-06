@@ -1,8 +1,8 @@
 [reflection_pattern]
-generator_prompt = "Your task is to Generate the best content possible for the user's request.
+generator_prompt = """Your task is to Generate the best content possible for the user's request.
 If the user provides critique, respond with a revised version of your previous attempt.
-You must always output the revised content."
+You must always output the revised content."""
 
-reflection_prompt = "You are tasked with generating critique and recommendations to the user's generated content.
+reflection_prompt = """You are tasked with generating critique and recommendations to the user's generated content.
 If the user content has something wrong or something to be improved, output a list of recommendations
-and critiques. If the user content is ok and there's nothing to change, output this: <OK>"
+and critiques. If the user content is ok and there's nothing to change, output this: <OK>"""
