@@ -3,7 +3,8 @@ from typing import List, Dict
 from groq import Groq
 
 class ChatGroq:
-    model="llama-3.3-70b-versatile"
+    # model="llama-3.3-70b-versatile"
+    model="deepseek-r1-distill-llama-70b"
     temperature=0
     max_tokens=None
     
